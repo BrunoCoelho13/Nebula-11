@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula - Artigos Meteorológicos</title>
+    <link rel="stylesheet" href="./CSS/artigos.css">
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/66044f686a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Nebula logo.png" alt="Nebula">
+        </div>
+        <div class="right-section">
+            <nav>
+                <ul>
+                    <li><a href="indexlogin.html">Home</a></li>
+                    <li><a href="videoslogin.html">Videos</a></li>
+                </ul>
+            </nav>
+            <form action="/pesquisar" method="get" class="search-form">
+                <input type="search" name="q" placeholder="Buscar artigos...">
+                <button type="submit">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path
+                            d="M8 16C11.866 16 15 12.866 15 9C15 5.13401 11.866 2 8 2C4.13401 2 1 5.13401 1 9C1 12.866 4.13401 16 8 16Z"
+                            stroke="currentColor" stroke-width="2" />
+                        <path d="M19 19L13 13" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </header>
+    
+    <section class="featured-article">
+        <div class="container">
+            <div class="article-main">
+                <h1 class="section-title">
+                    Artigo em Destaque - Tudo sobre Meteorologia
+                </h1>
+                <div class="main">
+                    <div class="content-blue">
+                        <div class="article-header">
+                            <div class="article-meta">
+                                <span class="category">Ciência Climática</span>
+                                <span class="date">Publicado em: 15/06/2024</span>
+                            </div>
+                            <h2 class="article-title">Como as Mudanças Climáticas Estão Alterando Nossas Estações</h2>
+                            <div class="author">
+                                <span>Por: <strong>Dr. Carlos Mendonça</strong>, Meteorologista</span>
+                            </div>
+                        </div>
+                        <div class="article-content">
+                            <img src="./img/climate-change.webp" alt="Mudanças climáticas" class="article-image">
+                            <div class="article-text">
+                                <p class="excerpt">Um estudo recente revela como o aquecimento global está causando alterações significativas nos padrões sazonais em todo o mundo. Pesquisadores observaram que as estações estão começando mais cedo em muitas regiões, com impactos profundos na agricultura, ecossistemas e até mesmo na saúde humana.</p>
+                                <a href="#" class="read-more">Ler artigo completo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="articles-grid">
+        <div class="container">
+            <h2 class="section-title">Últimos Artigos Científicos</h2>
+            <div class="articles-container">
+                <article class="article-card">
+                    <div class="article-image-container">
+                        <img src="./img/hurricane.webp" alt="Furacões intensos" class="article-image">
+                        <span class="category-tag">Tempestades</span>
+                    </div>
+                    <div class="article-info">
+                        <h3>O Aumento na Intensidade dos Furacões no Atlântico</h3>
+                        <div class="meta">
+                            <span class="author">Por: Dra. Ana Beatriz</span>
+                            <span class="date">10/06/2024</span>
+                        </div>
+                        <p class="excerpt">Novos dados mostram que os furacões estão se tornando mais intensos e mais rápidos em seu desenvolvimento, com implicações para as áreas costeiras...</p>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+                
+                <article class="article-card">
+                    <div class="article-image-container">
+                        <img src="./img/rain.jpg" alt="Padrões de chuva" class="article-image">
+                        <span class="category-tag">Precipitação</span>
+                    </div>
+                    <div class="article-info">
+                        <h3>Mudanças nos Padrões de Chuva no Sudeste Brasileiro</h3>
+                        <div class="meta">
+                            <span class="author">Por: Prof. Marcos Silva</span>
+                            <span class="date">05/06/2024</span>
+                        </div>
+                        <p class="excerpt">Estudo de 10 anos revela alterações significativas na distribuição das chuvas, com períodos mais secos mas chuvas mais intensas quando ocorrem...</p>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+                
+                <article class="article-card">
+                    <div class="article-image-container">
+                        <img src="./img/technology.webp" alt="Tecnologia meteorológica" class="article-image">
+                        <span class="category-tag">Tecnologia</span>
+                    </div>
+                    <div class="article-info">
+                        <h3>Como a IA Está Revolucionando as Previsões do Tempo</h3>
+                        <div class="meta">
+                            <span class="author">Por: Dr. Ricardo Torres</span>
+                            <span class="date">28/05/2024</span>
+                        </div>
+                        <p class="excerpt">Novos algoritmos de machine learning estão permitindo previsões mais precisas e com maior antecedência, salvando vidas e recursos...</p>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+                
+                <article class="article-card">
+                    <div class="article-image-container">
+                        <img src="./img/polar.jpg" alt="Regiões polares" class="article-image">
+                        <span class="category-tag">Clima Global</span>
+                    </div>
+                    <div class="article-info">
+                        <h3>O Degelo Acelerado nas Regiões Polares</h3>
+                        <div class="meta">
+                            <span class="author">Por: Dra. Juliana Almeida</span>
+                            <span class="date">20/05/2024</span>
+                        </div>
+                        <p class="excerpt">Dados de satélite mostram que o derretimento nas calotas polares está ocorrendo 40% mais rápido do que o previsto nos modelos climáticos...</p>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+                
+                <article class="article-card">
+                    <div class="article-image-container">
+                        <img src="./img/agriculture.webp" alt="Agricultura e clima" class="article-image">
+                        <span class="category-tag">Agricultura</span>
+                    </div>
+                    <div class="article-info">
+                        <h3>Impacto das Mudanças Climáticas na Agricultura Brasileira</h3>
+                        <div class="meta">
+                            <span class="author">Por: Prof. Fernando Costa</span>
+                            <span class="date">15/05/2024</span>
+                        </div>
+                        <p class="excerpt">Como os produtores rurais estão se adaptando às novas realidades climáticas e quais culturas podem ser mais afetadas nos próximos anos...</p>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+                
+                <article class="article-card">
+                    <div class="article-image-container">
+                        <img src="./img/urban.jpg" alt="Ilhas de calor urbanas" class="article-image">
+                        <span class="category-tag">Clima Urbano</span>
+                    </div>
+                    <div class="article-info">
+                        <h3>Ilhas de Calor: O Microclima das Grandes Cidades</h3>
+                        <div class="meta">
+                            <span class="author">Por: Dra. Patrícia Lima</span>
+                            <span class="date">10/05/2024</span>
+                        </div>
+                        <p class="excerpt">Por que as cidades são significativamente mais quentes que suas áreas rurais vizinhas e quais soluções estão sendo implementadas mundialmente...</p>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula - Sign Up</title>
+    <link rel="stylesheet" href="./CSS/crud.css">
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <div class="full-screen-container">
+        <div class="snowflakes">
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+        </div>
+        <div class="login-container">
+            <h1 class="login-title">Create Account</h1>
+            <form class="form" id="signup-form">
+                <div class="input-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" name="email" id="signup-email" required>
+                </div>
+                <div class="input-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" name="password" id="signup-password" required minlength="6">
+                </div>
+                
+                <div class="favorite-places-group">
+                    <label>Favorite Places</label>
+                    <div class="places-container">
+                        <input type="text" name="place1" id="place1" placeholder="Place 1">
+                        <input type="text" name="place2" id="place2" placeholder="Place 2">
+                        <input type="text" name="place3" id="place3" placeholder="Place 3">
+                    </div>
+                </div>
+                
+                <div class="error-message" id="signup-error"></div>
+                <div class="links-group">
+                    <a href="crud.html" class="login-link">Already have an account? Login</a>
+                </div>
+                <button type="submit" id="signin-button">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./js/app.js"></script>
+</body>

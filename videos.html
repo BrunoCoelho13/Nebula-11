@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula, Sua Previsão do Tempo</title>
+    <link rel="stylesheet" href="./CSS/video.css">
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/66044f686a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Nebula logo.png" alt="">
+        </div>
+        <div class="right-section">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="crud.html">Login</a></li>
+                </ul>
+            </nav>
+            <form action="/pesquisar" method="get" class="search-form">
+                <input type="search" name="q" placeholder="Previsão do Tempo...">
+                <button type="submit">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path
+                            d="M8 16C11.866 16 15 12.866 15 9C15 5.13401 11.866 2 8 2C4.13401 2 1 5.13401 1 9C1 12.866 4.13401 16 8 16Z"
+                            stroke="currentColor" stroke-width="2" />
+                        <path d="M19 19L13 13" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="forecast-main">
+                <h1 class="data">
+                    Vídeos meteorológicos - Últimas tendências
+                </h1>
+                <div class="main">
+                    <div class="content-red">
+                        <div class="information">
+                            <div class="info-temp">
+                                <div class="temperature">
+                                    <div class="flex-top">
+                                        <div class="video-container">
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/_OSgN80Ovoo?si=NqQFBLMbTKNpd3eh"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="data-temp">
+                                            <span class="sensation">Video por:<span class="txt-strng">
+                                                    Jornal da Record
+                                                </span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last-news">
+        <span>NOTICIAS DOS ULTIMOS DIAS</span>
+        <div class="video-card">
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=vGmkOJIcUnI" title="IMPRESSIONANTE: Luzes do norte"> <img
+                        src="./img/aurora.jpg" alt="aurora boreal"><span class="description-video">As luzes do norte são
+                        um feito lindo que apareceu em cameras pela primeira vez na estação espacial
+                        internacional</span>
+                </a>
+            </div>
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=Tuq4kdoYNrE" title="4 MENTIRAS SOBRE AS MUDANÇAS CLIMATICAS">
+                    <img src="./img/aquecimento global.jpg" alt="Aquecimento"><span class="description-video">
+                        Aquecimento global: 4 afirmações sobre as mudanças climáticas que a ciência desmentiu</span>
+                </a>
+            </div>
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=Mf2cxR9BWa4"
+                    title="QUEM É O RESPONSAVEL PELAS MUDANÇAS CLIMATICAS"> <img src="./img/china and us.webp"
+                        alt="CHINA AND USA"><span class="description-video">Quem É o Responsável Pelas Mudanças
+                        Climáticas? | Quem Precisa Resolver Isso?</span>
+                </a>
+            </div>
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=OfO6zxvhtBg"
+                    title="IMPRESSIONANTE: Antartica visto por outros olhos"> <img src="./img/antartica.jpg"
+                        alt="Antartica"><span class="description-video">MALUQUISSE: Video mostra como é a antartica de
+                        perto, veja agora mesmo o nosso polo sul como nunca viu</span>
+                </a>
+            </div>
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=q_VhGh-ZA0k" title="COMO É A VIDA NA AMAZONIA"> <img
+                        src="./img/AMAZON.webp" alt="Amazonia"><span class="description-video">Documentario mostra como
+                        é a vida na amazonia e como a fauna e flora local convivem em harmonia, o pulmão do mundo é
+                        mesmo lindo</span>
+                </a>
+            </div>
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=bFP9fdU1UIQ" title="Lobo terrivel"> <img src="./img/dino.jpg"
+                        alt="dinossauro"><span class="description-video">RESSUSCITARAM o PRIMEIRO animal PRÉ-HISTÓRICO?
+                        A “DESEXTINÇÃO” finalmente é real, bem vindo de volta amigo </span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

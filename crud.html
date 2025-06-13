@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula - Login</title>
+    <link rel="stylesheet" href="./CSS/crud.css">
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <div class="full-screen-container">
+        <div class="snowflakes">
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+    </div>
+    <div class="login-container">
+        <h1 class="login-title">Welcome</h1>
+        <div class="form-container" id="login-container">
+            <div class="input-group">
+                <label for="login-email">Email</label>
+                <input type="email" name="email" id="login-email" required>
+                <span class="msg" id="login-email-error">Invalid email</span>
+            </div>
+            <div class="input-group">
+                <label for="login-password">Password</label>
+                <input type="password" name="password" id="login-password" required>
+                <span class="msg" id="login-password-error">Incorrect password</span>
+            </div>
+            <div class="error-message" id="login-error"></div>
+            <div class="links-group">
+                <a href="signin.html" class="signin-link">Don't have an account? Sign up</a>
+            </div>
+            <button type="button" id="login-button">Login</button>
+        </div>
+    </div>
+</div>
+<script type="module" src="./JS/app.js"></script>
+</body>
+</html>
